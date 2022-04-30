@@ -1,0 +1,146 @@
+*{
+    list-style-type: none;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+html {
+    overflow: hidden;
+}
+
+body{
+    margin: 0 auto;
+    display: block;
+}
+
+.body_size{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* header */
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.header_wrap{
+    width: 100%;
+    background-color: black;
+}
+
+.header{
+    width: 70%;
+    height: 75px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.header > div{
+    display: flex;
+    align-items: center;
+}
+
+.main_logo{
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    width: 170px;
+    height: 75px;
+}
+
+.nav > ul{
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav > ul > li{
+    margin-right: 40px;
+}
+
+/* remonte controller*/
+.remoteController{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: 85%;
+    top: 45%;
+}
+
+.rcBtn{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rcBtnContent{
+    color: white;
+    margin-right: 15px;
+    visibility: hidden;
+}
+
+.rcBtnLine{
+    width: 15px;
+    height: 3px;
+    background-color: white;
+    visibility: hidden;
+}
+
+.rcBtnCover{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid white;
+    cursor: pointer;
+    
+}
+
+.rcBtnIn{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 2px auto;
+    cursor: pointer;
+}
+
+/* section */
+.section{
+    padding-top: 100px;
+    width: 100%;
+    height: calc(100vh);
+}
+
+.section_body{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* section 1 */
+#section1{
+    background-color: green;
+}
+
+/* section 2 */
+#section2{
+    background-color: red;
+}
+
+/* section 3 */
+#section3{
+    background-color: blue;
+}
+
+/* section 4 */
+#section4{
+    background-color: yellow;
+}
+
+/* section 5 */
+#section5{
+    background-color: violet;
+}

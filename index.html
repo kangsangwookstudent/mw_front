@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="src/remoteController.js"></script>
+    <title>한국메타버스미디어협회</title>
+</head>
+<body>
+    <header>
+        <div class="header_wrap">
+            <div class="header">
+                <div class="main_logo"></div>
+                <div class="nav">
+                    <ul>
+                        <li>협회소개</li>
+                        <li>주요사업</li>
+                        <li>자료실</li>
+                        <li>공지사항</li>
+                        <li>회원 및 가입안내</li>
+                    </ul>
+                </div>
+                <div class="login">로그인/회원가입</div>
+            </div>
+        </div>
+
+        <div class="remoteController">
+            <div class="rcBtn">
+                <div class="rcBtnContent" id="rcBtnContent1">협회소개</div>
+                <div class="rcBtnLine" id="rcBtnLine1"></div>
+                <div class="rcBtnCover" id="rcBtnCover1" onclick="sectionChange(1)"><div class="rcBtnIn" id="rcBtnIn1"></div></div>
+            </div>
+            <div class="rcBtn">
+                <div class="rcBtnContent" id="rcBtnContent2">주요사업</div>
+                <div class="rcBtnLine" id="rcBtnLine2"></div>
+                <div class="rcBtnCover" id="rcBtnCover2" onclick="sectionChange(2)"><div class="rcBtnIn" id="rcBtnIn2"></div></div>
+            </div>
+            <div class="rcBtn">
+                <div class="rcBtnContent" id="rcBtnContent3">자료실</div>
+                <div class="rcBtnLine" id="rcBtnLine3"></div>
+                <div class="rcBtnCover" id="rcBtnCover3" onclick="sectionChange(3)"><div class="rcBtnIn" id="rcBtnIn3"></div></div>
+            </div>
+            <div class="rcBtn">
+                <div class="rcBtnContent" id="rcBtnContent4">공지사항</div>
+                <div class="rcBtnLine" id="rcBtnLine4"></div>
+                <div class="rcBtnCover" id="rcBtnCover4" onclick="sectionChange(4)"><div class="rcBtnIn" id="rcBtnIn4"></div></div>
+            </div>
+            <div class="rcBtn">
+                <div class="rcBtnContent" id="rcBtnContent5">가입안내</div>
+                <div class="rcBtnLine" id="rcBtnLine5"></div>
+                <div class="rcBtnCover" id="rcBtnCover5" onclick="sectionChange(5)"><div class="rcBtnIn" id="rcBtnIn5"></div></div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="section" id="section1">
+            <div class="section_body">afds</div>
+        </div>
+        <div class="section" id="section2">
+            <div class="section_body"></div>
+        </div>
+        <div class="section" id="section3">
+            <div class="section_body"></div>
+        </div>
+        <div class="section" id="section4">
+            <div class="section_body"></div>
+        </div>
+        <div class="section" id="section5">
+            <div class="section_body"></div>
+        </div>
+    </main>
+</body>
+</html>
