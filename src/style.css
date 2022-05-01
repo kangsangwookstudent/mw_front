@@ -61,6 +61,11 @@ header{
     margin-right: 40px;
 }
 
+.nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
 /* remonte controller*/
 .remoteController{
     position: fixed;
@@ -144,3 +149,36 @@ header{
 #section5{
     background-color: violet;
 }
+
+.nav1, .nav2, .nav3, .nav4, .nav5{
+    position: relative;
+}
+
+/* dropdown */
+.dropdown1, .dropdown2, .dropdown3, .dropdown4, .dropdown5{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    background-color: silver;
+    height: 150px;
+    line-height: 50px; 
+}
+
+.dropdown1title, .dropdown2title, .dropdown3title, .dropdown4title, .dropdown5title{
+    font-size: 25px;
+    margin-top: 0px;
+    width: 30%;
+}
+
+.dropdown1content, .dropdown2content{
+    width: 70%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+}
+
