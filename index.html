@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script type="text/javascript" src="src/remoteController.js"></script>
+    <script type="text/javascript" src="src/dropdown.js"></script>
     <title>한국메타버스미디어협회</title>
 </head>
 <body>
@@ -19,11 +20,61 @@
                 <div class="main_logo"></div>
                 <div class="nav">
                     <ul>
-                        <li>협회소개</li>
-                        <li>주요사업</li>
-                        <li>자료실</li>
-                        <li>공지사항</li>
-                        <li>회원 및 가입안내</li>
+                        <li class="nav1">협회소개</li>
+                            <div class="dropdown1" id ='dropdown1'>
+                                <div class="dropdown1title">
+                                    <p>협회 소개</p>
+                                </div>
+                                <div class="dropdown1content">
+                                    <a href="#">인사말</a>
+                                    <a href="#">협회소개</a>
+                                    <a href="#">조직도</a>
+                                    <a href="#">정관</a>
+                                    <a href="#">오시는 길</a>
+                                </div>
+                            </div>
+                        <li class="nav2">주요사업</li>
+                            <div class="dropdown2">
+                                <div class="dropdown2title">
+                                    <p>주요사업</p>
+                                </div>
+                                <div class="dropdown2content">
+                                    <a href="#">정책</a>
+                                    <a href="#">홍보</a>
+                                    <a href="#">교육</a>
+                                </div>
+                            </div>
+                        <li class="nav3">자료실</li>
+                            <div class="dropdown3">
+                                <div class="dropdown3title">
+                                    <p>자료실</p>
+                                </div>
+                                <div class="dropdown3content">
+                                    <a href="#">자료 1</a>
+                                    <a href="#">자료 2</a>
+                                    <a href="#">자료 3</a>
+                                </div>
+                            </div>
+                        <li class="nav4">공지사항</li>
+                            <div class="dropdown4">
+                                <div class="dropdown4title">
+                                    <p>공지사항</p>
+                                </div>
+                                <div class="dropdown4content">
+                                    <a href="#">공지사항</a>
+                                    <a href="#">활동 소식 및 보도 자료</a>
+                                </div>
+                            </div>
+                        <li class="nav5">회원 및 가입안내</li>
+                            <div class="dropdown5">
+                                <div class="dropdown5title">
+                                    <p>회원 및 가입 안내</p>
+                                </div>
+                                <div class="dropdown5content">
+                                    <a href="#">회원가입</a>
+                                    <a href="#">가입안내</a>
+                                </div>
+                            </div>
                     </ul>
                 </div>
                 <div class="login">로그인/회원가입</div>
