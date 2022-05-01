@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 	$('.nav1').hover(function(){
         $('.dropdown1').css('display', 'block');
-        
+        $('.dropdown1').css('display', 'flex');
 
 	});
 	$('.nav1').mouseleave(function(){
@@ -16,6 +16,7 @@ $(document).ready(function(){
 
     $('.nav2').hover(function(){
         $('.dropdown2').css('display', 'block');
+        $('.dropdown2').css('display', 'flex');
 
 	});
 	$('.nav2').mouseleave(function(){
@@ -24,6 +25,7 @@ $(document).ready(function(){
 
     $('.nav3').hover(function(){
         $('.dropdown3').css('display', 'block');
+        $('.dropdown3').css('display', 'flex');
 
 	});
 	$('.nav3').mouseleave(function(){
@@ -32,6 +34,7 @@ $(document).ready(function(){
 
     $('.nav4').hover(function(){
         $('.dropdown4').css('display', 'block');
+        $('.dropdown4').css('display', 'flex');
 
 	});
 	$('.nav4').mouseleave(function(){
@@ -40,6 +43,7 @@ $(document).ready(function(){
 
     $('.nav5').hover(function(){
         $('.dropdown5').css('display', 'block');
+        $('.dropdown5').css('display', 'flex');
 
 	});
 	$('.nav5').mouseleave(function(){

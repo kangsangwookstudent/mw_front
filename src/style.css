@@ -59,6 +59,8 @@ header{
 
 .nav > ul > li{
     margin-right: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav > ul > li > a{
@@ -155,30 +157,111 @@ header{
 }
 
 /* dropdown */
-.dropdown1, .dropdown2, .dropdown3, .dropdown4, .dropdown5{
+.dropdown1{
     position: absolute;
     top: 70px;
     left: 0px;
     width: 100%;
-    display: flex;
     background-color: silver;
     height: 150px;
-    line-height: 50px; 
+    line-height: 25px; 
+    padding: 0;
+}
+
+.dropdown2{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    background-color: silver;
+    height: 150px;
+    line-height: 35px; 
+    padding: 0;
+}
+
+.dropdown3{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    background-color: silver;
+    height: 150px;
+    line-height: 35px; 
+    padding: 0;
+}
+
+.dropdown4{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    background-color: silver;
+    height: 150px;
+    line-height: 40px; 
+    padding: 0;
+}
+
+.dropdown5{
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    background-color: silver;
+    height: 150px;
+    line-height: 40px; 
+    padding: 0;
 }
 
 .dropdown1title, .dropdown2title, .dropdown3title, .dropdown4title, .dropdown5title{
     font-size: 25px;
     margin-top: 0px;
-    width: 30%;
+    margin-left: 10%;
+    width: 25%;
 }
 
-.dropdown1content, .dropdown2content{
-    width: 70%;
+.dropdown1content{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 10px;
+}
+
+.dropdown2content{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 18px;
+}
+
+.dropdown3content{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 18px;
+}
+
+.dropdown4content{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 25px;
+}
+
+.dropdown5content{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 25px;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
     vertical-align: middle;
 }
 
