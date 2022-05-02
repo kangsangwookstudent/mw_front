@@ -166,6 +166,7 @@ header{
     height: 150px;
     line-height: 25px; 
     padding: 0;
+    display: flex;
 }
 
 .dropdown2{
@@ -177,6 +178,7 @@ header{
     height: 150px;
     line-height: 35px; 
     padding: 0;
+    display: flex;
 }
 
 .dropdown3{
@@ -188,6 +190,7 @@ header{
     height: 150px;
     line-height: 35px; 
     padding: 0;
+    display: flex;
 }
 
 .dropdown4{
@@ -199,6 +202,7 @@ header{
     height: 150px;
     line-height: 40px; 
     padding: 0;
+    display: flex;
 }
 
 .dropdown5{
@@ -210,6 +214,7 @@ header{
     height: 150px;
     line-height: 40px; 
     padding: 0;
+    display: flex;
 }
 
 .dropdown1title, .dropdown2title, .dropdown3title, .dropdown4title, .dropdown5title{
@@ -259,9 +264,34 @@ header{
     margin-top: 25px;
 }
 
-a{
+.dropdown1content > a{
     text-decoration: none;
     color: black;
     vertical-align: middle;
 }
+
+.dropdown2content > a{
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+}
+
+.dropdown3content > a{
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+}
+
+.dropdown4content > a{
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+}
+
+.dropdown5content > a{
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+}
+
 

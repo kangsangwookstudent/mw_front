@@ -1,52 +1,60 @@
-$(document).ready(function(){
-    $('.dropdown1').css('display', 'none');
-    $('.dropdown2').css('display', 'none');
-    $('.dropdown3').css('display', 'none');
-    $('.dropdown4').css('display', 'none');
-    $('.dropdown5').css('display', 'none');
+$(function(){
+    $('.dropdown1').hide();
+    $('.nav1').hover(function(){
+        $(this).parent().find('.dropdown1').slideDown();
+        $(this).parent().hover(function(){
 
-	$('.nav1').hover(function(){
-        $('.dropdown1').css('display', 'block');
-        $('.dropdown1').css('display', 'flex');
+        }, function(){
+            $(this).parent().find('.dropdown1').slideUp(900);
+        }), function(){
+            $(this).parent().hover('.nav1 a').css('color', 'silver');
+        }, function(){
+            $('.dropdown1').hover('.dropdown1').css('display', 'block');
+        }
+    });
+});
 
-	});
-	$('.nav1').mouseleave(function(){
-		$('.dropdown1').css('display', 'none');
-	});
-
+$(function(){
+    $('.dropdown2').hide();
     $('.nav2').hover(function(){
-        $('.dropdown2').css('display', 'block');
-        $('.dropdown2').css('display', 'flex');
+        $(this).parent().find('.dropdown2').slideDown();
+        $(this).parent().hover(function(){
+        }, function(){
+            $(this).parent().find('.dropdown2').slideUp(900);
+        })
+    });
+});
 
-	});
-	$('.nav2').mouseleave(function(){
-		$('.dropdown2').css('display', 'none');
-	});
-
+$(function(){
+    $('.dropdown3').hide();
     $('.nav3').hover(function(){
-        $('.dropdown3').css('display', 'block');
-        $('.dropdown3').css('display', 'flex');
+        $(this).parent().find('.dropdown3').slideDown();
+        $(this).parent().hover(function(){
+        }, function(){
+            $(this).parent().find('.dropdown3').slideUp(900);
+        })
+    });
+});
 
-	});
-	$('.nav3').mouseleave(function(){
-		$('.dropdown3').css('display', 'none');
-	});
-
+$(function(){
+    $('.dropdown4').hide();
     $('.nav4').hover(function(){
-        $('.dropdown4').css('display', 'block');
-        $('.dropdown4').css('display', 'flex');
+        $(this).parent().find('.dropdown4').slideDown();
+        $(this).parent().hover(function(){
+        }, function(){
+            $(this).parent().find('.dropdown4').slideUp(900);
+        })
+    });
+});
 
-	});
-	$('.nav4').mouseleave(function(){
-		$('.dropdown4').css('display', 'none');
-	});
 
+$(function(){
+    $('.dropdown5').hide();
     $('.nav5').hover(function(){
-        $('.dropdown5').css('display', 'block');
-        $('.dropdown5').css('display', 'flex');
-
-	});
-	$('.nav5').mouseleave(function(){
-		$('.dropdown5').css('display', 'none');
-	});
+        $(this).parent().find('.dropdown5').slideDown();
+        $(this).parent().hover(function(){
+        }, function(){
+            $(this).parent().find('.dropdown5').slideUp(900);
+        })
+    });
 });
