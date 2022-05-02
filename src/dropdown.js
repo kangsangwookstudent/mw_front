@@ -1,11 +1,15 @@
 $(function(){
     $('.dropdown1').hide();
     $('.nav1').hover(function(){
-        $(this).parent().find('.dropdown1').slideDown();
+        $('.dropdown2').hide();
+        $('.dropdown3').hide();
+        $('.dropdown4').hide();
+        $('.dropdown5').hide();
+        $(this).parent().find('.dropdown1').stop().slideDown(500);
         $(this).parent().hover(function(){
 
         }, function(){
-            $(this).parent().find('.dropdown1').slideUp(900);
+            $(this).parent().find('.dropdown1').slideUp(800);
         }), function(){
             $(this).parent().hover('.nav1 a').css('color', 'silver');
         }, function(){
@@ -17,7 +21,11 @@ $(function(){
 $(function(){
     $('.dropdown2').hide();
     $('.nav2').hover(function(){
-        $(this).parent().find('.dropdown2').slideDown();
+        $('.dropdown1').hide();
+        $('.dropdown3').hide();
+        $('.dropdown4').hide();
+        $('.dropdown5').hide();
+        $(this).parent().find('.dropdown2').slideDown(500);
         $(this).parent().hover(function(){
         }, function(){
             $(this).parent().find('.dropdown2').slideUp(900);
@@ -28,7 +36,11 @@ $(function(){
 $(function(){
     $('.dropdown3').hide();
     $('.nav3').hover(function(){
-        $(this).parent().find('.dropdown3').slideDown();
+        $('.dropdown1').hide();
+        $('.dropdown2').hide();
+        $('.dropdown4').hide();
+        $('.dropdown5').hide();
+        $(this).parent().find('.dropdown3').slideDown(500);
         $(this).parent().hover(function(){
         }, function(){
             $(this).parent().find('.dropdown3').slideUp(900);
@@ -39,7 +51,11 @@ $(function(){
 $(function(){
     $('.dropdown4').hide();
     $('.nav4').hover(function(){
-        $(this).parent().find('.dropdown4').slideDown();
+        $('.dropdown1').hide();
+        $('.dropdown2').hide();
+        $('.dropdown3').hide();
+        $('.dropdown5').hide();
+        $(this).parent().find('.dropdown4').slideDown(500);
         $(this).parent().hover(function(){
         }, function(){
             $(this).parent().find('.dropdown4').slideUp(900);
@@ -51,7 +67,11 @@ $(function(){
 $(function(){
     $('.dropdown5').hide();
     $('.nav5').hover(function(){
-        $(this).parent().find('.dropdown5').slideDown();
+        $('.dropdown1').hide();
+        $('.dropdown2').hide();
+        $('.dropdown3').hide();
+        $('.dropdown4').hide();
+        $(this).parent().find('.dropdown5').slideDown(500);
         $(this).parent().hover(function(){
         }, function(){
             $(this).parent().find('.dropdown5').slideUp(900);
