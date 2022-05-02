@@ -51,7 +51,7 @@ header{
 }
 
 .nav > ul{
-    margin: 0 auto;
+    margin-right: 40px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -61,11 +61,17 @@ header{
     margin-right: 40px;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
-.nav > ul > li > a{
+.nav > ul > li > a {
+    margin: 0 auto;
+}
+
+#nav1, #nav2, #nav3, #nav4, #nav5{
     text-decoration: none;
     color: white;
+    margin-right: 0;
 }
 
 /* remonte controller*/
@@ -154,36 +160,39 @@ header{
 
 .nav1, .nav2, .nav3, .nav4, .nav5{
     position: relative;
+    text-decoration: none;
+    color: white;
+    margin-right: 0;
 }
 
 /* dropdown */
 .dropdown1{
     position: absolute;
-    top: 70px;
+    top: 75px;
     left: 0px;
     width: 100%;
     background-color: silver;
     height: 150px;
-    line-height: 25px; 
+    line-height: 40px; 
     padding: 0;
     display: flex;
 }
 
 .dropdown2{
     position: absolute;
-    top: 70px;
+    top: 75px;
     left: 0px;
     width: 100%;
     background-color: silver;
     height: 150px;
-    line-height: 35px; 
+    line-height: 40px; 
     padding: 0;
     display: flex;
 }
 
 .dropdown3{
     position: absolute;
-    top: 70px;
+    top: 75px;
     left: 0px;
     width: 100%;
     background-color: silver;
@@ -195,7 +204,7 @@ header{
 
 .dropdown4{
     position: absolute;
-    top: 70px;
+    top: 75px;
     left: 0px;
     width: 100%;
     background-color: silver;
@@ -207,7 +216,7 @@ header{
 
 .dropdown5{
     position: absolute;
-    top: 70px;
+    top: 75px;
     left: 0px;
     width: 100%;
     background-color: silver;
@@ -221,18 +230,18 @@ header{
     font-size: 25px;
     margin-top: 0px;
     margin-left: 10%;
-    width: 25%;
+    width: 23.5%;
 }
 
 .dropdown1content{
-    width: 65%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     z-index: 1;
-    margin-top: 10px;
+    margin-top: 18px;
 }
 
-.dropdown2content{
+.dropdown4content, .dropdown3content{
     width: 65%;
     display: flex;
     flex-direction: column;
@@ -240,58 +249,27 @@ header{
     margin-top: 18px;
 }
 
-.dropdown3content{
+.dropdown2content, .dropdown5content{
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 25px;
+}
+
+.dropdown6content{
+    width: 45%;
     display: flex;
     flex-direction: column;
     z-index: 1;
     margin-top: 18px;
 }
 
-.dropdown4content{
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    margin-top: 25px;
-}
-
-.dropdown5content{
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    margin-top: 25px;
-}
-
-.dropdown1content > a{
+.dropdown1content > a, .dropdown2content > a, .dropdown3content > a, .dropdown4content > a, .dropdown5content > a, .dropdown6content > a{
     text-decoration: none;
     color: black;
     vertical-align: middle;
 }
 
-.dropdown2content > a{
-    text-decoration: none;
-    color: black;
-    vertical-align: middle;
-}
-
-.dropdown3content > a{
-    text-decoration: none;
-    color: black;
-    vertical-align: middle;
-}
-
-.dropdown4content > a{
-    text-decoration: none;
-    color: black;
-    vertical-align: middle;
-}
-
-.dropdown5content > a{
-    text-decoration: none;
-    color: black;
-    vertical-align: middle;
-}
 
 
